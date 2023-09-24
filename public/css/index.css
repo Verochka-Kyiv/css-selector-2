@@ -1,1 +1,101 @@
+:root {
+  background-color: white;
+}
+html {
+  max-width: 720px;
+  color: black;
+}
+/* Task 1 */
+.lesson-four-task-one button:hover {
+  color: red;
+  background-color: yellow;
+}
+/* Task 2 */
+.lesson-four-task-two a:hover + h1 {
+  background-color: rgb(43, 233, 43);
+}
+/* Task 3 */
+.lesson-four-task-three a:visited {
+  color: yellow;
+}
+/* Task 4  */
+.lesson-four-task-four a:link {
+  color: red;
+}
+/* task 5 */
+.lesson-four-task-five .btn:active {
+  background: blue;
+}
+/* task 6 */
+.lesson-four-task-six .btn:focus {
+  background: orange;
+}
+/*task 7*/
+.lesson-four-task-seven #target:target {
+  background-color: green;
+  color: white;
+}
+/* task 8 */
+.lesson-four-task-eight #checkbox:checked + #target {
+  background-color: blue;
+  color: white;
+}
+/* task 9  Тут без класу, оскільки завдання - для усіх елементів на сторінці*/
+p:lang(uk) {
+  color: blue;
+}
 
+/* task 10 */
+.lesson-four-task-ten :enabled {
+  color: red;
+  background-color: yellow;
+}
+/* task 11 */
+.lesson-four-task-eleven :disabled {
+  background-color: rgb(241, 188, 16);
+}
+/* task 12 */
+.lesson-four-task-twelve input:read-write {
+  background-color: yellow;
+}
+/* task 13 */
+.lesson-four-task-thirteen input:read-only {
+  background-color: yellow;
+}
+/* task 14 */
+.lesson-four-task-fourteen input:valid {
+  background-color: green;
+}
+.lesson-four-task-fourteen input:invalid {
+  background-color: rgb(213, 10, 10);
+}
+/* task 15 */
+.lesson-four-task-fifteen input:optional {
+  background-color: red;
+}
+/* task 16 */
+.lesson-four-task-sixteen
+  input[type='number']:out-of-range {
+  color: red;
+}
+/* task 17 */
+.lesson-four-task-seventeen input[type='number']:in-range {
+  color: rgb(92, 241, 92);
+}
+/* task 18 */
+.lesson-four-task-eighteen input:placeholder-shown {
+  background-color: red;
+}
+/* task 19 */
+.lesson-four-task-nineteen button:focus-within {
+  color: white;
+  background-color: rgb(229, 229, 49);
+}
+/* task 20 Колір фону форми чи инпута? Цей варіант для инпута: */
+.lesson-four-task-twenty input:invalid {
+  background-color: red;
+}
+/* task 20 Колір фону форми чи инпута? Цей варіант для форми*/
+.lesson-four-task-twenty form:invalid {
+  background-color: red;
+}
